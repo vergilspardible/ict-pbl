@@ -1,0 +1,154 @@
+
+        nav{
+            background-color: #599D34;
+            display: flex;
+            color: white;
+            margin: -8px;
+            align-items: center;
+            justify-content: space-around;
+        }
+         nav .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+    }
+ 
+    nav .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+ 
+    nav .nav-links a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+        .logo{
+            font-size: 24px;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+            font-size: large;
+            gap: 10px;
+        }
+        .nav-links a{
+            text-decoration: none;
+            color: white;
+        }
+        .nav-links li{
+            padding: 5px;
+        }
+        .navimg{
+            width: 150px;
+            height: 150px;
+        }
+        .hero1img{
+            width: 100px;
+            height: 100px;
+        }
+        .page_title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero2{
+            justify-content: center;
+            text-align: center;
+        }
+        .hero2 img{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            padding: -10px;
+        }
+        button{
+            border:none;
+            height:40px;
+            width:90px;
+            border-radius:10px;
+            cursor: pointer;
+            font-size:15px;
+        }
+    footer {
+      background-color: #599D34;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+      flex-wrap: wrap;
+      font-family: Arial, sans-serif;
+      margin: -8px;
+    }
+
+    .footer-left {
+      max-width: 300px;
+    }
+
+    .footer-right ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-right ul li {
+      margin-bottom: 5px;
+    }
+
+    .footer-right ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-right ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      position: absolute;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      bottom: 10px;
+      right: 600px;
+    }
+        .view_more{
+            text-align: center;
+            display: flex;
+            margin: 100px;
+            margin-left: 400px;
+            gap: 50px;
+        }
+        .view_more2{
+            text-align: center;
+            display: flex;
+            margin: 100px;
+            margin-left: 330px;
+            gap: 50px;
+        }
+        .Learning_Tools{
+            border: 1px solid darkblue;
+            border-radius: 10px;
+            height: 200px;
+            width: 300px;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .Environmental_Impact{
+            border: 1px solid darkblue;
+            border-radius: 10px;
+            height: 230px;
+            width: 300px;
+            justify-content: center;
+            text-align: center;
+        }
+    body{
+      font-family: Arial, sans-serif;
+    }
